@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+h1 {
+    text-align: center;
+    color: #fff;
+}
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #000000;  
+}
+ .producto {
+    width: 33%;
+    margin: 15px 0;
+    align-items: center;
+    
+  }
+  .producto img {
+      border-radius: 3px;
+      padding: 10px;
+      background-color: #202020;
+      width: 300px;
+      height: 200px;
+    }
+      .producto img:hover {
+        background-color: rgb(74, 180, 230);
+      }
+    .producto a {
+      text-decoration: none;
+      color: #fff;
+    }
+      .producto a:hover {
+        color:  rgb(74, 180, 230);
+      }
